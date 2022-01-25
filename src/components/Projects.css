@@ -1,0 +1,19 @@
+
+.project-title  p, .project-title span {
+    margin: 15px;
+}
+
+.project-title .row{
+    border: 1px solid hsla(0,0%,62.7%,.3);
+}
+.project-title img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.project-title img:hover {
+    transition: .5s transform ease-in;
+    transform: scale(1.03) ;
+}
+
+

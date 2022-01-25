@@ -1,0 +1,19 @@
+.body-section {
+    margin-left: 30px;
+}
+
+
+
+.body-section-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-right {
+    background-color: #fff;
+    border: 1px solid hsla(0,0%,62.7%,.3);
+    padding: 40px;
+    height: 30%;
+}
+
+
