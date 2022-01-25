@@ -22,7 +22,7 @@ function Projects(props) {
                       <p>Book Store Library</p>
                       <span>December, 2021</span>
                       <a href="https://huseynahmadov.github.io/book-store/">
-                      <img src="/images/site1.png"  alt='' />
+                      <img src="personal_site/images/site1.png"  alt='' />
 
                       </a>
                     </div>
@@ -35,7 +35,7 @@ function Projects(props) {
                   <p>Disney+ App</p>
                   <span>January, 2022</span>
                   <a href="https://disneyplus-clone-ae3d6.web.app">
-                  <img src="/images/site2.png"  alt='' />
+                  <img src="personal_site/images/site2.png"  alt='' />
 
                   </a>
                 </div>
@@ -48,7 +48,7 @@ function Projects(props) {
                   <p>Google Clone Library</p>
                   <span>January, 2022</span>
                   <a href="https://clone-f0637.web.app" alt=''>
-                  <img src="/images/site3.png" />
+                  <img src="personal_site/images/site3.png" />
 
                   </a>
                 </div>
