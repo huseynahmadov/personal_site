@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Profile.css";
-
+import pp from './pp.png'
 function Profile() {
   return (
     <>
       <section className="body-left col-3">
         <div className="profile-photo">
-          <img src="/images/pp.png" alt="Huseyn" />
+          <img src={pp} alt="Huseyn" />
         </div>
         <div className="profile-title">
           <span>Huseyn A'hmadov</span>
