@@ -49,7 +49,7 @@ function Projects(props) {
                       <p>Google Clone Library</p>
                       <span>January, 2022</span>
                       <a href="https://clone-f0637.web.app" alt="">
-                        <img src={site3} />
+                        <img src={site3} alt=""/>
                       </a>
                     </div>
                   </div>

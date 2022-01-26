@@ -16,16 +16,16 @@ function Resume(props) {
                 <div className="resume-links">
                 <div className="education">
 
-                <a href="#">
+                
                   <span>EDUCATION</span>
-                 </a>
+                 
                  </div>
 
                  <div className="skills">
 
-                <a href="#">
+                
                   <span>SKILLS</span>
-                 </a>
+                 
                  </div>
                 </div>
             }
