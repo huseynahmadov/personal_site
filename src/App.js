@@ -1,6 +1,6 @@
 import "./App.css";
 import Infos from "./components/Infos";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import AboutPage from "./components/AboutPage";
 import Contact from "./components/Contact";
