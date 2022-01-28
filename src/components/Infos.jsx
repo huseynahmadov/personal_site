@@ -3,7 +3,6 @@ import React from "react";
 import Profile from "./Profile";
 import "./Infos.css";
 import About from "./About";
-import Grid from "@mui/material/Grid";
 function Infos() {
 
   const [visible, setVisible] = useState(true);
