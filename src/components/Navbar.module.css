@@ -1,0 +1,170 @@
+/* span {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+header {
+    border-bottom: 1px solid hsla(0,0%,62.7%,.3);
+    background-color: #fff !important;
+    height: 70px;
+    display: flex;
+    
+
+}
+.header-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header span {
+    line-height: 35px;
+    margin-left: 10px;
+}
+
+.header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.header-links {
+    display: flex;
+}
+
+.header-links a, .header-name a {
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    color: inherit;
+}
+
+
+.header-name a:hover ,.header-links a:hover {
+    transition: 0.5s ease-in-out;
+    opacity: .7;
+    color: blue;
+}
+
+ */
+
+.header {
+  font-family: "Raleway", sans-serif;
+  border-bottom: 1px solid hsla(0, 0%, 62.7%, 0.3);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+  height: 8vh;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+  height: 3.5em;
+}
+
+.header h1 {
+  font-size: 0.8em;
+  letter-spacing: 0.25em;
+  font-weight: 700;
+}
+
+.header a {
+  color: #3c3b3b;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-weight: 400;
+  font-size: 0.7em;
+  letter-spacing: 0.25em;
+  position: relative;
+}
+
+nav ul ::after {
+  content: "";
+  height: 2px;
+  position: absolute;
+  top: 0;
+  left: -15px;
+  height: 12px;
+  width: 1.2px;
+  display: block;
+  background: hsla(0, 0%, 62.7%, 0.3);
+}
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 20px;
+  height: 2px;
+  background-color: #000;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    /* background-color: red; */
+    overflow-x: hidden;
+  }
+  .wrapper {
+    justify-content: space-between;
+  }
+
+  nav ul {
+    position: fixed;
+    top: 6vh;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    transition: 0.5s ease-in;
+    transform: translateX(100%);
+    z-index: 1;
+  }
+  nav ul li {
+    margin-top: 50px;
+  }
+  nav > p {
+    z-index: 2;
+  }
+  .burger {
+    display: block;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -5px);
+}
