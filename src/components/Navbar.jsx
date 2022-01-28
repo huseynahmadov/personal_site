@@ -2,14 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 function Navbar(props) {
-  const myFunction = () => {
-    var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-  }
+  
   return (
     <div>
       <header className="header-section">
