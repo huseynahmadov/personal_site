@@ -1,10 +1,11 @@
 import React from "react";
-
+import Grid from "@mui/material/Grid";
 import "./About.css";
 function About(props) {
   return (
     <>
-      <section className="body-right col-8">
+
+      <section className="body-right  col-lg-8 col-md-8 col-sm-8 ">
         <div className="about-title">
           <p>{props.title}</p>
           <span>{props.titleAlt}</span>

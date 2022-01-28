@@ -29,3 +29,13 @@
 .some-history ul li {
     margin-top: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .body-right {
+        margin-top: 40px;
+    }
+
+    .about-section, .about-title {
+        text-align: center;
+    }
+}

@@ -5,9 +5,9 @@ import pp from './pp.png'
 function Profile() {
   return (
     <>
-      <section className="body-left col-3">
+      <section className="body-left col-lg-3 col-md-3 col-sm-3">
         <div className="profile-photo">
-          <img src={pp} alt="Huseyn" />
+          <img src={pp} alt="Huseyn"/>
         </div>
         <div className="profile-title">
           <span>Huseyn A'hmadov</span>

@@ -39,12 +39,12 @@ header span {
     color: inherit;
 }
 
- {
-
-}
 
 .header-name a:hover ,.header-links a:hover {
     transition: 0.5s ease-in-out;
     opacity: .7;
     color: blue;
 }
+
+
+
